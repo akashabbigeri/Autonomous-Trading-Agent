@@ -1,0 +1,155 @@
+{
+    "company_names": {
+        "0": "Group 6 (Hero)",
+        "1": "Dummy Corp"
+    },
+    "company_metrics": {
+        "0": {
+            "fuel_consumption": 4007.0749038384183,
+            "co2_emissions": 12662.356696129402,
+            "fuel_cost": 4007.0749038384183,
+            "vessel_status_ballast": 258.1614285714286,
+            "vessel_status_idle": 1573.0440817495687,
+            "vessel_status_loading": 13.71234682185991,
+            "vessel_status_laden": 363.0821428571428,
+            "vessel_status_unloading": 13.712346821859683
+        },
+        "1": {
+            "fuel_consumption": 660.0337097016608,
+            "co2_emissions": 2085.706522657248,
+            "fuel_cost": 660.0337097016608,
+            "vessel_status_idle": 2221.7123468218597
+        }
+    },
+    "vessel_metrics": {
+        "(0, 0)": {
+            "route": [
+                "Aberdeen-f8ea5ddd09c3",
+                "Port Said-73e707725c62",
+                "Tanjung Pelepas-71ae886ba35d"
+            ],
+            "fuel_consumption": 4007.0749038384183,
+            "co2_emissions": 12662.356696129402,
+            "fuel_cost": 4007.0749038384183,
+            "vessel_status_ballast": 258.1614285714286,
+            "vessel_status_idle": 1573.0440817495687,
+            "vessel_status_loading": 13.71234682185991,
+            "vessel_status_laden": 363.0821428571428,
+            "vessel_status_unloading": 13.712346821859683
+        },
+        "(1, 0)": {
+            "route": [
+                "Aberdeen-f8ea5ddd09c3"
+            ],
+            "fuel_consumption": 660.0337097016608,
+            "co2_emissions": 2085.706522657248,
+            "fuel_cost": 660.0337097016608,
+            "vessel_status_idle": 2221.7123468218597
+        }
+    },
+    "global_metrics": {
+        "auction_outcomes": [
+            {
+                "0": [],
+                "1": [
+                    {
+                        "payment": 5000,
+                        "trade": {
+                            "origin_port": {
+                                "name": "Nakhodka-eaf8326ce14b",
+                                "latitude": 42.78621,
+                                "longitude": 132.92236
+                            },
+                            "destination_port": {
+                                "name": "Long Beach-4c3082f54073",
+                                "latitude": 33.75264,
+                                "longitude": -118.21166
+                            },
+                            "amount": 107161.57595757782,
+                            "cargo_type": "Oil",
+                            "time": 0,
+                            "probability": 1,
+                            "status": 1,
+                            "time_window": [
+                                168,
+                                408,
+                                576,
+                                816
+                            ]
+                        },
+                        "fulfilled": false
+                    }
+                ]
+            },
+            {
+                "0": [],
+                "1": [
+                    {
+                        "payment": 5000,
+                        "trade": {
+                            "origin_port": {
+                                "name": "Kawasaki-3c5642389c14",
+                                "latitude": 35.49238,
+                                "longitude": 139.7629
+                            },
+                            "destination_port": {
+                                "name": "Kiire-c1d11e2429fa",
+                                "latitude": 31.38772,
+                                "longitude": 130.55385
+                            },
+                            "amount": 24120.85986704411,
+                            "cargo_type": "Oil",
+                            "time": 720,
+                            "probability": 1,
+                            "status": 1,
+                            "time_window": [
+                                816,
+                                1056,
+                                864,
+                                1104
+                            ]
+                        },
+                        "fulfilled": false
+                    }
+                ]
+            },
+            {
+                "0": [
+                    {
+                        "payment": 5000,
+                        "trade": {
+                            "origin_port": {
+                                "name": "Port Said-73e707725c62",
+                                "latitude": 31.25094,
+                                "longitude": 32.30507
+                            },
+                            "destination_port": {
+                                "name": "Tanjung Pelepas-71ae886ba35d",
+                                "latitude": 1.34033,
+                                "longitude": 103.54542
+                            },
+                            "amount": 68561.73410929955,
+                            "cargo_type": "Oil",
+                            "time": 1440,
+                            "probability": 1,
+                            "status": 1,
+                            "time_window": [
+                                1776,
+                                2016,
+                                2208,
+                                2448
+                            ]
+                        },
+                        "fulfilled": true
+                    }
+                ],
+                "1": []
+            }
+        ],
+        "penalty": {
+            "0": 0,
+            "1": 5417.37555359534
+        }
+    },
+    "info": null
+}

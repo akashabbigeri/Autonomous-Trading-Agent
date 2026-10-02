@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Large course-provided MABLE resources (obtain from the course materials)
+*.zip
+*.pickle
+*.pkl
+resources/
+extracted_resources/
+ports.csv
+port_cargo_weight_distribution.csv
+port_trade_frequency_distribution.csv
+time_transition_distribution.csv
+
+# Fresh simulation output written to the repo root (curated samples live in results/metrics/)
+/metrics_competition_*.json

@@ -1,0 +1,41 @@
+{
+    "company_names": {
+        "0": "Group 6 Shipping"
+    },
+    "company_metrics": {
+        "0": {
+            "fuel_consumption": 427.79999999999995,
+            "co2_emissions": 1351.848,
+            "fuel_cost": 427.79999999999995,
+            "vessel_status_idle": 1440
+        }
+    },
+    "vessel_metrics": {
+        "(0, 0)": {
+            "route": [
+                "Aberdeen-f8ea5ddd09c3"
+            ],
+            "fuel_consumption": 427.79999999999995,
+            "co2_emissions": 1351.848,
+            "fuel_cost": 427.79999999999995,
+            "vessel_status_idle": 1440
+        }
+    },
+    "global_metrics": {
+        "auction_outcomes": [
+            {
+                "0": []
+            },
+            {
+                "0": []
+            },
+            {
+                "0": []
+            }
+        ],
+        "penalty": {
+            "0": 0
+        }
+    },
+    "info": null
+}
